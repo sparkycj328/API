@@ -25,7 +25,7 @@ func (app *application) showMovieHandler(w http.ResponseWriter, r *http.Request)
 	movie := data.Movie{
 		ID:			id,
 		CreatedAt:   time.Now(),
-		Title:		"Casblanca",
+		Title:		"Casablanca",
 		Runtime: 	102,
 		Genres:		[]string{"drama", "romance", "war"},
 		Version:	1,
